@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: 'Kanit', sans-serif;
+  --font-charm: 'Charm', cursive;
+  --font-serif: 'Playfair Display', serif;
+  --color-wedding-emerald: #113A35;
+  --color-wedding-forest: #20635B;
+  --color-wedding-teal: #14B8A6;
+  --color-wedding-sage: #E8F4F2;
+  --color-wedding-bg: #F4FBF9;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #F4FBF9;
+  color: #113A35;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for guest wall and modal */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8F4F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #99CBC3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #20635B;
+}

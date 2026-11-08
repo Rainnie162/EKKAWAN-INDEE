@@ -1,0 +1,6 @@
+{
+  "name": "อรุโณทัย & เอกวาล Wedding RSVP",
+  "description": "บัตรเชิญงานมงคลสมรส อรุโณทัย & เอกวาล ณ ครัวกินลมชมอ่าง จังหวัดลพบุรี พร้อมระบบลงทะเบียน RSVP นับถอยหลัง และแผนที่การเดินทาง",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
